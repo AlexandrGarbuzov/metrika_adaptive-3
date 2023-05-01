@@ -1,0 +1,54 @@
+.contacts.container {
+  padding-bottom: 140px;
+  margin-top: 150px;
+}
+
+.contacts h2 {
+  margin-bottom: 74px;
+}
+
+.contacts__wrapper {
+  position: relative;
+  display: flex;
+  gap: 100px;
+}
+
+.contacts__wrapper li a {
+  display: inline-block;
+  font-size: 60px;
+  color: #121212;
+}
+
+.contacts__phone a {
+  height: 70px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+}
+
+.contacts__mail a {
+  height: 60px;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  border-bottom: 2px solid #121212;
+}
+
+.contacts__link:hover {
+  opacity: 0.5;
+}
+
+.contacts__wrapper li::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contacts__phone::before {
+  top: -49px;
+  background-image: url(/resources/contacts-phone.png);
+}
+.contacts__mail::before {
+  top: -46px;
+  background-image: url(/resources/contacts-telegram.png);
+}

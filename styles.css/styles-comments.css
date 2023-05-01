@@ -1,0 +1,31 @@
+.feedback__data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 79px 50px;
+}
+
+.feedback__item {
+  width: 46%;
+}
+
+.feedback__item-less {
+  width: 505px;
+}
+
+.feedback__item:nth-last-child(1):nth-child(odd) {
+  width: 861px;
+}
+
+.feedback__item h3 {
+  margin-top: 0;
+  font-size: 45px;
+  line-height: 61px;
+  color: #000000;
+}
+
+.feedback__item p {
+  margin-top: 14px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}

@@ -58,7 +58,7 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
-  background-image: url(/resources/popup__close-btn.svg);
+  background-image: url(../resources/popup__close-btn.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }

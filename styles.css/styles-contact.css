@@ -46,9 +46,9 @@
 }
 .contacts__phone::before {
   top: -49px;
-  background-image: url(/resources/contacts-phone.png);
+  background-image: url(../resources/contacts-phone.png);
 }
 .contacts__mail::before {
   top: -46px;
-  background-image: url(/resources/contacts-telegram.png);
+  background-image: url(../resources/contacts-telegram.png);
 }
